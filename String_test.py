@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[198]:
-
 
 """All functions to implement for the first part of the Techincal test."""
 
@@ -12,9 +7,6 @@ import math
 from functools import reduce
 from math import sqrt
 from typing import Dict, List
-
-
-# In[199]:
 
 
 def unique_strings(strings_1: List[str], strings_2: List[str]) -> List[str]:   
@@ -29,8 +21,6 @@ def unique_strings(strings_1: List[str], strings_2: List[str]) -> List[str]:
     return [result]
 
 
-# In[200]:
-
 
 def unique_multiple_strings(*args: List[str]) -> List[str]:
     #Returns a list of unique strings sorted by alphabetic order with multiples arguments.
@@ -39,8 +29,6 @@ def unique_multiple_strings(*args: List[str]) -> List[str]:
     
     return(result)
 
-
-# In[307]:
 
 
 
@@ -71,8 +59,6 @@ class Word():
                     return False
 
 
-# In[312]:
-
 
 if __name__ == "__main__":
     # Here is some material to test your code:
@@ -98,10 +84,5 @@ if __name__ == "__main__":
     print(Word("yolo").is_kalindrome()) # True
     print(Word("olo").is_kalindrome()) # True
     print(Word("alo").is_kalindrome()) # False
-
-
-# In[ ]:
-
-
 
 
